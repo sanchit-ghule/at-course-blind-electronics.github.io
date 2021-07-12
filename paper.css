@@ -1,7 +1,40 @@
  
 /* start css.sty */
 .ntx-Regular-tlf-t1-x-x-120{font-name: 'ntx', serif}
-.ntx-Regular-tlf-t1-x-x-120{font-name: 'ntx', serif}
+.ntxbsy-x-x-120{ font-family: 'txbsys', serif;}
+.ntxbsy-x-x-120{ font-family: 'txbsys', serif;}
+.ntxbsy-x-x-88{font-size:73%; font-family: 'txbsys', serif;}
+.ntxbsy-x-x-88{ font-family: 'txbsys', serif;}
+.ntxbsy7-x-x-66{font-size:55%; font-family: 'txbsys', serif;}
+.msam-10x-x-88{font-size:73%;}
+.msam-7x-x-94{font-size:54%;}
+.msbm-10x-x-88{font-size:73%;}
+.msbm-7x-x-94{font-size:54%;}
+.ntx-Regular-tlf-ot1-x-x-120{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-120{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-120{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-88{font-size:73%; font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-88{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-88{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-66{font-size:55%; font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-66{ font-family: 'txmiaX', serif;}
+.ntx-Regular-tlf-ot1-x-x-66{ font-family: 'txmiaX', serif;}
+.ntxmi-x-x-120{ font-style: italic; font-family: 'NewTXMath', serif;}
+.ntxmi-x-x-120{ font-style: italic; font-family: 'NewTXMath', serif;}
+.ntxmi-x-x-88{font-size:73%; font-style: italic; font-family: 'NewTXMath', serif;}
+.ntxmi-x-x-88{ font-style: italic; font-family: 'NewTXMath', serif;}
+.ntxmi7-x-x-66{font-size:55%; font-style: italic; font-family: 'NewTXMath', serif;}
+.ntxsy-x-x-120{ font-family: 'txsys', serif;}
+.ntxsy-x-x-120{ font-family: 'txsys', serif;}
+.ntxsy-x-x-88{font-size:73%; font-family: 'txsys', serif;}
+.ntxsy-x-x-88{ font-family: 'txsys', serif;}
+.ntxsy7-x-x-66{font-size:55%; font-family: 'txsys', serif;}
+.ntxexx-x-x-120{ font-family: 'txexs', serif;}
+.ntxexx-x-x-88{font-size:73%; font-family: 'txexs', serif;}
+.ntxexx-x-x-66{font-size:55%; font-family: 'txexs', serif;}
+.ntxmia-x-x-120{ font-family: 'txmiaX', serif;}
+.ntxmia-x-x-88{font-size:73%; font-family: 'txmiaX', serif;}
+.ntxmia-x-x-66{font-size:55%; font-family: 'txmiaX', serif;}
 .ntx-Regular-tlf-sc-t1-x-x-120{font-variant: small-caps; font-name: 'ntx', serif}
 .ntx-Regular-tlf-sc-t1-x-x-120{font-variant: small-caps; font-name: 'ntx', serif}
 .ntx-Regular-tlf-sc-t1-x-x-120{font-variant: small-caps; font-name: 'ntx', serif}
@@ -22,8 +55,6 @@
 .ntx-Regular-tlf-sc-t1-x-x-144{font-variant: small-caps; font-name: 'ntx', serif}
 .t1xtt-x-x-120{ font-family: 't1xtt', serif;}
 .ntx-Bold-tlf-t1-x-x-120{font-weight: bold; font-name: 'ntx', serif}
-.ntx-Regular-tlf-t1-x-x-88{font-size:73%;font-name: 'ntx', serif}
-.ntx-Regular-tlf-t1-x-x-88{font-name: 'ntx', serif}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
 p + p{margin-top:1em;}
@@ -35,8 +66,7 @@ a img { border-top: 0; border-left: 0; border-right: 0; }
 center { margin-top:1em; margin-bottom:1em; }
 td center { margin-top:0em; margin-bottom:0em; }
 .Canvas { position:relative; }
-img.math{vertical-align:middle;}
-div.par-math-display, div.math-display{text-align:center;}
+math { text-indent: 0em; }
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -96,23 +126,22 @@ div.figure img {text-align:center;}
 .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
 .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 .reversemarginpar{float:left;}
-table.equation {width:100%;}
-.equation td{text-align:center; }
-td.equation { margin-top:1em; margin-bottom:1em; } 
-td.equation-label { width:5%; text-align:center; }
-td.eqnarray4 { width:5%; white-space: normal; }
-td.eqnarray2 { width:5%; }
-table.eqnarray-star, table.eqnarray {width:100%;}
-div.eqnarray{text-align:center;}
-div.array {text-align:center;}
-div.pmatrix {text-align:center;}
-table.pmatrix {width:100%;}
-span.pmatrix img{vertical-align:middle;}
-div.pmatrix {text-align:center;}
-table.pmatrix {width:100%;}
-span.bar-css {text-decoration:overline;}
+.equation td{text-align:center; vertical-align:middle; }
+td.eq-no{ width:5%; }
+table.equation { width:100%; } 
+div.math-display, div.par-math-display{text-align:center;}
+mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+mtr.hline mtd mo{ display:none }
+math .texttt { font-family: monospace; }
+math .textit { font-style: italic; }
+math .textsl { font-style: oblique; }
+math .textsf { font-family: sans-serif; }
+math .textbf { font-weight: bold; }
 table.tabular{border-collapse: collapse; border-spacing: 0;}
-img.cdots{vertical-align:middle;}
+mo.MathClass-op + mi{margin-left:0.3em}
+mi + mo.MathClass-op{margin-left:0.3em}
+ math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
@@ -140,19 +169,11 @@ figure.figure {text-align:center;}
 figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
 figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 .abstract{margin:1em;}
-.equation td{text-align:center; }
-.equation-star td{text-align:center; }
-table.equation-star { width:100%; }
-table.equation { width:100%; }
-table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
-table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
-td.align-label { width:5%; text-align:center; }
-td.align-odd { text-align:right; padding-right:0.3em;}
-td.align-even { text-align:left; padding-right:0.6em;}
-table.multline, table.multline-star {width:100%;}
-td.gather {text-align:center; }
-table.gather {width:100%;}
-div.gather-star {text-align:center;}
+.equation-star td{text-align:center; vertical-align:middle; }
+table.equation-star { width:100%; } 
+mtd.align-odd{margin-left:2em; text-align:right;}
+mtd.align-even{margin-right:2em; text-align:left;}
+.boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
 .rotatebox{display: inline-block;}
 table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.longtable{text-align:center;}
@@ -175,7 +196,6 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 .hline hr, .cline hr{ height : 0px; margin:0px; }
 .hline td, .cline td{ padding: 0; }
 .hline hr, .cline hr{border:none;border-top:1px solid black;}
-div.array {text-align:center;}
 dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
 .caption span.id{font-weight: bold;}
  .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;} 
